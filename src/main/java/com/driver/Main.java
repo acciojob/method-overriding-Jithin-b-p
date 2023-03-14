@@ -1,12 +1,12 @@
 package com.driver;
 
 public class Main {
-    static class A{
+    public static class A{
         public String meth(){
             return "Invoking method from class A";
         }
     }
-    static class B{
+    public static class B{
         public String meth(){
             return "Method is overridden in extendend class B";
         }
